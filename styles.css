@@ -1,0 +1,43 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: relative;
+    width: 85.0%;
+    left: 7.5%;
+}
+
+section, footer {
+    position: relative;
+    width: 85.0%;
+    left: 7.5%;
+    padding: 1.5%;
+
+}
+
+
+
+#map_ba6716d14d93c1e54c533babf966d927 {
+    position: relative;
+    width: 85.0%;
+    height: 85.0%;
+    left: 7.5%;
+    top: 0.0%;
+
+}
+
+.chartholder {
+    position: relative;
+    display: flex;
+    justify-content: center
+
+}
+
+
+.leaflet-container {
+    font-size: 1rem;
+ }
