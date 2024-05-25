@@ -1,2 +1,2 @@
-#UK diversity mapping
+# UK diversity mapping
 This is my first personal data storytelling/journalism project. For this personal project, I aims to come up with data stories while learning the best practice of information visualisation and narration. The tools I am currently using include Python and its data viz libraries including folium and altair-vega, as well as html and css to customize my page. In this repository, you will can find the data I used in Data, the codes I wrote to process the data and produce the visualisation. 
