@@ -2,8 +2,16 @@ import math
 import warnings
 import pandas as pd
 import folium
+import altair as alt
 
 warnings.filterwarnings("ignore")
+
+def set_up_altair_browser():
+    alt.renderers.enable('browser')
+    alt.renderers.set_embed_options(loader={"target": "_blank"})
+    #alt.renderers.enable('mimetype') # offline renderer
+    alt.data_transformers.disable_max_rows()
+
 
 def restructure_data(data: pd.DataFrame, variable: str, geo_id: str):
     """Clean the variable of concern and pivot the data to be wide format
